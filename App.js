@@ -33,7 +33,7 @@ export default function App() {
 
   return (
   <NavigationContainer>
-    <Stack.Navigator initialRouteName='Welcome'>
+    <Stack.Navigator initialRouteName='Anasayfa'>
       
         (isLoggedIn) ? 
         <>
@@ -50,7 +50,7 @@ export default function App() {
 }
 
 const screenOptions={
-  GirisEkrani:{ title: 'Welcome', headerShown: false},
+  GirisEkrani:{ title: 'Anasayfa', headerShown: false},
   ToDo:{
     title: 'ToDo',
     headerShown: true,
